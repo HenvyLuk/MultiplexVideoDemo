@@ -14,6 +14,13 @@
 		5C8F993C1CEB0BEE009CABDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F993B1CEB0BEE009CABDD /* Assets.xcassets */; };
 		5C8F993F1CEB0BEE009CABDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F993D1CEB0BEE009CABDD /* LaunchScreen.storyboard */; };
 		5C8F99471CEB0C6F009CABDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99461CEB0C6F009CABDD /* Main.storyboard */; };
+		5C8F99491CEB0D30009CABDD /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99481CEB0D30009CABDD /* play.jpg */; };
+		5C8F994B1CEB0D41009CABDD /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F994A1CEB0D41009CABDD /* back.png */; };
+		5C8F994D1CEB0D57009CABDD /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F994C1CEB0D57009CABDD /* next.png */; };
+		5C8F994F1CEB0D63009CABDD /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F994E1CEB0D63009CABDD /* pause.png */; };
+		5C8F99531CEB0D8B009CABDD /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99501CEB0D8B009CABDD /* 1.mp4 */; };
+		5C8F99541CEB0D8B009CABDD /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99511CEB0D8B009CABDD /* 2.mp4 */; };
+		5C8F99551CEB0D8B009CABDD /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99521CEB0D8B009CABDD /* 3.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		5C8F993E1CEB0BEE009CABDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C8F99401CEB0BEE009CABDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8F99461CEB0C6F009CABDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C8F99481CEB0D30009CABDD /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		5C8F994A1CEB0D41009CABDD /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5C8F994C1CEB0D57009CABDD /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		5C8F994E1CEB0D63009CABDD /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		5C8F99501CEB0D8B009CABDD /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		5C8F99511CEB0D8B009CABDD /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		5C8F99521CEB0D8B009CABDD /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 		5C8F992B1CEB0BEE009CABDD /* MultiplexVideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C8F99501CEB0D8B009CABDD /* 1.mp4 */,
+				5C8F99511CEB0D8B009CABDD /* 2.mp4 */,
+				5C8F99521CEB0D8B009CABDD /* 3.mp4 */,
+				5C8F994E1CEB0D63009CABDD /* pause.png */,
+				5C8F994C1CEB0D57009CABDD /* next.png */,
+				5C8F99481CEB0D30009CABDD /* play.jpg */,
+				5C8F994A1CEB0D41009CABDD /* back.png */,
 				5C8F992F1CEB0BEE009CABDD /* AppDelegate.h */,
 				5C8F99301CEB0BEE009CABDD /* AppDelegate.m */,
 				5C8F99321CEB0BEE009CABDD /* ViewController.h */,
@@ -140,6 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C8F99471CEB0C6F009CABDD /* Main.storyboard in Resources */,
+				5C8F994B1CEB0D41009CABDD /* back.png in Resources */,
+				5C8F994D1CEB0D57009CABDD /* next.png in Resources */,
+				5C8F99551CEB0D8B009CABDD /* 3.mp4 in Resources */,
+				5C8F99541CEB0D8B009CABDD /* 2.mp4 in Resources */,
+				5C8F994F1CEB0D63009CABDD /* pause.png in Resources */,
+				5C8F99491CEB0D30009CABDD /* play.jpg in Resources */,
+				5C8F99531CEB0D8B009CABDD /* 1.mp4 in Resources */,
 				5C8F993F1CEB0BEE009CABDD /* LaunchScreen.storyboard in Resources */,
 				5C8F993C1CEB0BEE009CABDD /* Assets.xcassets in Resources */,
 			);
