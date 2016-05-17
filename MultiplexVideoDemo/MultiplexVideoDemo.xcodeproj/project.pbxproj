@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C8F992E1CEB0BEE009CABDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F992D1CEB0BEE009CABDD /* main.m */; };
+		5C8F99311CEB0BEE009CABDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F99301CEB0BEE009CABDD /* AppDelegate.m */; };
+		5C8F99341CEB0BEE009CABDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F99331CEB0BEE009CABDD /* ViewController.m */; };
+		5C8F99371CEB0BEE009CABDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F99351CEB0BEE009CABDD /* Main.storyboard */; };
+		5C8F993A1CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F99381CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodeld */; };
+		5C8F993C1CEB0BEE009CABDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F993B1CEB0BEE009CABDD /* Assets.xcassets */; };
+		5C8F993F1CEB0BEE009CABDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F993D1CEB0BEE009CABDD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C8F99291CEB0BEE009CABDD /* MultiplexVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplexVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8F992D1CEB0BEE009CABDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C8F992F1CEB0BEE009CABDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C8F99301CEB0BEE009CABDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C8F99321CEB0BEE009CABDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C8F99331CEB0BEE009CABDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C8F99361CEB0BEE009CABDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C8F99391CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiplexVideoDemo.xcdatamodel; sourceTree = "<group>"; };
+		5C8F993B1CEB0BEE009CABDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C8F993E1CEB0BEE009CABDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C8F99401CEB0BEE009CABDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8F99261CEB0BEE009CABDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8F99201CEB0BEE009CABDD = {
+			isa = PBXGroup;
+			children = (
+				5C8F992B1CEB0BEE009CABDD /* MultiplexVideoDemo */,
+				5C8F992A1CEB0BEE009CABDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C8F992A1CEB0BEE009CABDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F99291CEB0BEE009CABDD /* MultiplexVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C8F992B1CEB0BEE009CABDD /* MultiplexVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F992F1CEB0BEE009CABDD /* AppDelegate.h */,
+				5C8F99301CEB0BEE009CABDD /* AppDelegate.m */,
+				5C8F99321CEB0BEE009CABDD /* ViewController.h */,
+				5C8F99331CEB0BEE009CABDD /* ViewController.m */,
+				5C8F99351CEB0BEE009CABDD /* Main.storyboard */,
+				5C8F993B1CEB0BEE009CABDD /* Assets.xcassets */,
+				5C8F993D1CEB0BEE009CABDD /* LaunchScreen.storyboard */,
+				5C8F99401CEB0BEE009CABDD /* Info.plist */,
+				5C8F99381CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodeld */,
+				5C8F992C1CEB0BEE009CABDD /* Supporting Files */,
+			);
+			path = MultiplexVideoDemo;
+			sourceTree = "<group>";
+		};
+		5C8F992C1CEB0BEE009CABDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F992D1CEB0BEE009CABDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8F99281CEB0BEE009CABDD /* MultiplexVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8F99431CEB0BEE009CABDD /* Build configuration list for PBXNativeTarget "MultiplexVideoDemo" */;
+			buildPhases = (
+				5C8F99251CEB0BEE009CABDD /* Sources */,
+				5C8F99261CEB0BEE009CABDD /* Frameworks */,
+				5C8F99271CEB0BEE009CABDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiplexVideoDemo;
+			productName = MultiplexVideoDemo;
+			productReference = 5C8F99291CEB0BEE009CABDD /* MultiplexVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C8F99211CEB0BEE009CABDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = csh;
+				TargetAttributes = {
+					5C8F99281CEB0BEE009CABDD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C8F99241CEB0BEE009CABDD /* Build configuration list for PBXProject "MultiplexVideoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C8F99201CEB0BEE009CABDD;
+			productRefGroup = 5C8F992A1CEB0BEE009CABDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C8F99281CEB0BEE009CABDD /* MultiplexVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C8F99271CEB0BEE009CABDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8F993F1CEB0BEE009CABDD /* LaunchScreen.storyboard in Resources */,
+				5C8F993C1CEB0BEE009CABDD /* Assets.xcassets in Resources */,
+				5C8F99371CEB0BEE009CABDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8F99251CEB0BEE009CABDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8F99341CEB0BEE009CABDD /* ViewController.m in Sources */,
+				5C8F99311CEB0BEE009CABDD /* AppDelegate.m in Sources */,
+				5C8F992E1CEB0BEE009CABDD /* main.m in Sources */,
+				5C8F993A1CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C8F99351CEB0BEE009CABDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8F99361CEB0BEE009CABDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C8F993D1CEB0BEE009CABDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8F993E1CEB0BEE009CABDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C8F99411CEB0BEE009CABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8F99421CEB0BEE009CABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C8F99441CEB0BEE009CABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiplexVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjgz.MultiplexVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C8F99451CEB0BEE009CABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiplexVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjgz.MultiplexVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C8F99241CEB0BEE009CABDD /* Build configuration list for PBXProject "MultiplexVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8F99411CEB0BEE009CABDD /* Debug */,
+				5C8F99421CEB0BEE009CABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8F99431CEB0BEE009CABDD /* Build configuration list for PBXNativeTarget "MultiplexVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8F99441CEB0BEE009CABDD /* Debug */,
+				5C8F99451CEB0BEE009CABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C8F99381CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C8F99391CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodel */,
+			);
+			currentVersion = 5C8F99391CEB0BEE009CABDD /* MultiplexVideoDemo.xcdatamodel */;
+			path = MultiplexVideoDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C8F99211CEB0BEE009CABDD /* Project object */;
+}
